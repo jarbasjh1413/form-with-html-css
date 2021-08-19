@@ -1,0 +1,58 @@
+label {
+    display: block;
+    margin: 10px 0px 10px 2px;
+    font-size: 18px;
+    color: #8ddfff;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    border-color: #0efff9;
+    border-radius: 3px;
+}
+
+#form,
+.label-inline {
+    margin: 15px 10px 10px 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#form-box {
+    border: 1px solid;
+    width: 500px;
+    background-color: #0f2a46;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.age,
+.age>input {
+    width: 60px;
+    display: inline;
+    margin: 10px 0px 10px 5px;
+    text-align: center;
+}
+
+.inline-inputs {
+    display: inline;
+    margin: 10px 5px;
+}
+
+.buttons {
+    width: 190px;
+    height: 40px;
+    background-color: #07b7ff;
+    color: white;
+    font-weight: bold;
+    border-color: #0efff9;
+    margin: 20px 10px 0px 0px;
+    border-radius: 5px;
+}
+
+:hover.buttons {
+    background-color: #70fffb;
+    border-color: #0929af;
+    color: #000000;
+    cursor: pointer;
+}

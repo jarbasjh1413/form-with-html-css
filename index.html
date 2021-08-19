@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+    <title>Desafio 1 CSS</title>
+</head>
+
+<body>
+
+    <form id="form" action="" method="POST" enctype="multipart/form-data">
+
+        <div id="form-box">
+            <!--content-form-->
+            <div>
+                <!--name-->
+                <label>Nome</label>
+
+                <input name="nome" required>
+            </div>
+
+            <div>
+                <!--mail--->
+                <label>Email</label>
+
+                <input name="email" type="email" required>
+            </div>
+
+            <div>
+                <!--age-->
+                <label class="age">Idade</label>
+
+                <input class="age" name="idade" type="number" min="12" width="30" required>
+
+            </div>
+
+            <div>
+                <!--birth-date-->
+                <label>Data de Nascimento</label>
+
+                <input name="data-nascimento" type="date" required>
+            </div>
+
+            <div>
+                <!--acount-check-box-->
+                <label class="label-inline">Onde você possui conta:</label>
+                <!--inputsin-inline-->
+                <input class="inline-inputs" name="check-insta" id="insta" type="checkbox" required>
+                <label class="inline-inputs" for="insta">Instagram</label>
+                <input class="inline-inputs" name="check-facebook" id="facebook" type="checkbox" required>
+                <label class="inline-inputs" for="facebook">Facebook</label>
+                <input class="inline-inputs" name="check-youtube" id="youtube" type="checkbox" required>
+                <label class="inline-inputs" for="youtube">YouTube</label>
+                <!--close-inputs-->
+            </div>
+
+            <div>
+                <!--gender-check-box-->
+                <label>Sexo</label>
+                <!--inputsin-inline-->
+                <input class="inline-inputs" name="sexo" id="masculino" type="radio" required>
+                <label class=" inline-inputs" for="masculino">Masculino</label>
+                <input class="inline-inputs" name="sexo" id="feminino" type="radio" required>
+                <label class=" inline-inputs" for="feminino">Feminino</label>
+                <!--close-inputs-->
+            </div>
+
+            <div>
+                <label>Cor dos Olhos:
+                    <input class=" inline-inputs" name="color" type="color" required>
+                </label>
+            </div>
+
+            <div>
+                <label>Biografia</label>
+                <textarea name="text-area" rows="5" cols="33" required></textarea>
+            </div>
+
+            <div>
+                <label>Foto de Perfil</label>
+                <input name="foto-perfil" type="file" accept="image/png, image/gif, image/jpeg" required>
+            </div>
+
+            <div>
+                <label>Telefone</label>
+                <input name="telefone" placeholder="ex: (xx) xxxx-xxxx" required>
+            </div>
+
+            <div>
+                <label>Link do perfil do Facebook</label>
+                <input name="facebook" type="url" required>
+            </div>
+
+            <div>
+                <label>Senha</label>
+                <input name="senha" type="password" minlength="6" maxlength="8" required>
+            </div>
+
+            <div>
+                <button class="buttons" name="reset" type="reset">Limpar</button>
+                <button class="buttons" name="send" type="submit">Enviar</button>
+            </div>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
